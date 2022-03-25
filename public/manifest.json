@@ -1,0 +1,22 @@
+{
+  "name": "api mock",
+  "description": "接口数据拦截，mock",
+  "version": "1.0",
+  "manifest_version": 3,
+  "icons": {
+    "128": "/images/128.png"
+  },
+  "background": { "service_worker": "background.js" },
+  "action": {
+    "default_title": "",
+    "default_popup": "pages/popup/index.html"
+  },
+  "devtools_page": "pages/devtoolPage/index.html",
+  "options_page": "pages/options/index.html",
+  "permissions": [
+    "storage",
+    "tabs",
+    "http://*/",
+    "https://*/"
+  ]
+}

@@ -1,0 +1,1 @@
+var e=Object.defineProperty;var a=(s,o,n)=>o in s?e(s,o,{enumerable:!0,configurable:!0,writable:!0,value:n}):s[o]=n;var c=(s,o,n)=>(a(s,typeof o!="symbol"?o+"":o,n),n);function l(s,o){const n=new t("ycl");n.say(),console.log(n)}class t{constructor(o){c(this,"name");this.name=o}say(){console.log(this.name)}}console.log(l());
